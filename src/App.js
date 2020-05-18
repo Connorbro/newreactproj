@@ -9,14 +9,14 @@ const AboutMe = () => {
     </div>
   )
 }
-const whatShouldIWear = () => {
+const Header = () => {
   return(
-    <h1>What should you wear to different places?</h1>
+    <h1>This is the header component</h1>
   )
 }
-const WhatsYourName = () => {
+const Footer = () => {
   return(
-    <h1>Name?</h1>
+    <h1>This is the footer component</h1>
   )
 }
 
@@ -26,8 +26,8 @@ class App extends Component{
       <div className="App">
         <h1>Hello world</h1>
         <AboutMe />
-        <WhatsYourName />
-        <whatShouldIWear />
+        <Header />
+        <Footer />
       </div>
     )
   }
