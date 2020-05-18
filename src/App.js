@@ -1,18 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
 import AboutMe from './AboutMe';
+import Header from './Header';
+import Footer from './Footer';
 
 
-const Header = () => {
-  return(
-    <h1>This is the header component</h1>
-  )
-}
-const Footer = () => {
-  return(
-    <h1>This is the footer component</h1>
-  )
-}
+
 
 class App extends Component{
   render(){
