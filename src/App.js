@@ -1,14 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
+import AboutMe from './AboutMe';
 
-const AboutMe = () => {
-  return(
-    <div>
-      <h1>Would you like to know more about me?</h1>
-      <p>Maybe you would, maybe you wouldn't</p>
-    </div>
-  )
-}
+
 const Header = () => {
   return(
     <h1>This is the header component</h1>
