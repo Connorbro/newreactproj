@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
-import AboutMe from './AboutMe';
-import Heading from './Heading';
-import NavBar from './NavBar';
-import AboutDave from './AboutDave';
-import Pets from './Pets';
+import AboutMe from './components/AboutMe';
+import Heading from './components/Heading';
+import NavBar from './components/NavBar';
+import AboutDave from './components/AboutDave';
+import Pets from './components/Pets';
+import Student from './components/Student';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component{
         <AboutDave />
         <NavBar />
         <Pets petType="Pigeon" age = {22} FavFood = "cheerios" excersize = "Treadmil"/>
+        <Student name= "Connor" age= {21} />
       </div>
     )
   }
